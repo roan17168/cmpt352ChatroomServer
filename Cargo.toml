@@ -1,0 +1,8 @@
+[package]
+name = "chatroom"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "chatroom_server"
+path = "src/main.rs"

@@ -1,0 +1,8 @@
+services:
+  chatroom:
+    build: .
+    image: chatroom-server:latest
+    container_name: chatroom
+    ports:
+      - "3500:3500"
+    restart: unless-stopped
